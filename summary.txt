@@ -1,0 +1,28 @@
+This is a summary note of all the procedures i took
+
+-first step was to cd to my C:/
+-then i mkdir MySoftware_proj and cd MySoftware_proj
+-after that i clone a repository relating to django to my local machine
+-then i forked the project to my github account and cloned it to my local machine
+-after then i created a branch using 
+-git branch feature-update
+-git switch feature-update
+-and i made changes
+-git add .
+-git commit -m "my commit message"
+-switched back to master
+-git merge featured-update
+-i added a file called elizabeth file and added a text file and also a html file
+-then i git add .
+-git commit -m "commit msg"
+-git push origin master
+-created a conflict and resolved it by creating a branch using 
+-git branch resolve-conflict
+-git add file.txt
+-git commit -m "Made conflicting changes to file.txt"
+-git push origin main
+-git checkout -b resolve-conflict
+-git add file.txt
+-git commit -m "Resolved conflicts in file.txt"
+-git checkout main
+-git merge resolve-conflict
